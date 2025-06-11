@@ -1,4 +1,10 @@
-
+// how to call th return of a function to a new function
+function A(){
+    return "A returns this"
+}
+newFunction(newA){
+    console.log(newA)
+}
 
 // Problem1
 function greetUser(name) {
@@ -121,4 +127,5 @@ console.log(convertCurrency(100, "AUD")+" dollars");
 function swap(a, b) {
     return [b, a];
 }       
-console.log(swap(1, 2));   
+console.log(swap(1, 2)); 
+
